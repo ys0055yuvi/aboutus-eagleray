@@ -3,38 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>About Us - EagleRay</title>
     <style>
         body {
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-family: 'Georgia', serif;
+            background-color: #f5f5dc;
             color: #333;
             margin: 0;
             padding: 0;
             line-height: 1.6;
         }
         .container {
-            width: 80%;
+            width: 85%;
             margin: auto;
             overflow: hidden;
         }
         .header {
-            background: #f4f4f4;
-            padding: 30px 0;
+            background: #d4af37;
+            padding: 20px 0;
             text-align: center;
-            border-bottom: 1px solid #ddd;
+            border-bottom: 2px solid #333;
         }
         .header h1 {
             margin: 0;
-            font-size: 36px;
-            color: #333;
+            font-size: 48px;
+            color: #fff;
         }
         .section {
-            padding: 20px 0;
+            padding: 40px 0;
+            text-align: center;
         }
         .section h2 {
-            font-size: 28px;
+            font-size: 32px;
             margin-bottom: 20px;
-            text-align: center;
+            color: #333;
         }
         .section p {
             font-size: 18px;
@@ -44,18 +46,17 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
         .image-row img {
             max-width: 100%;
             height: auto;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         .image-row .image-item {
             flex: 1 1 300px;
             max-width: 300px;
             margin: 10px;
-            text-align: center;
         }
         .team {
             display: flex;
@@ -80,7 +81,19 @@
         }
         .team-member p {
             font-size: 16px;
-            color: #777;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        ul li::before {
+            content: "★"; /* Or any other symbol */
+            margin-right: 10px;
+            color: #d4af37;
         }
         @media (max-width: 768px) {
             .team-member, .image-item {
@@ -92,13 +105,13 @@
 </head>
 <body>
     <header class="header">
-        <h1>About Us</h1>
+        <h1>EagleRay</h1>
     </header>
     <div class="container">
         <section class="section">
             <h2>Our Story</h2>
-            <p>Welcome to [Your Company Name], where passion meets precision. Founded in [Year], our mission has always been to bring unique and high-quality products to our customers. Our journey began with a simple idea and has blossomed into a brand recognized for its commitment to excellence.</p>
-            <p>At [Your Company Name], we believe in the power of craftsmanship and the importance of detail. Each product is meticulously designed and created with care, reflecting our dedication to both aesthetic beauty and functionality.</p>
+            <p>Welcome to EagleRay, where timeless elegance meets unwavering quality. Established in [Year], our mission has always been to deliver excellence through every piece we create. Our journey started with a passion for craftsmanship and a commitment to preserving the essence of old-world charm.</p>
+            <p>At EagleRay, we honor the tradition of meticulous detail and refined artistry. Each product is a testament to our dedication to quality and our appreciation for the finer things in life.</p>
         </section>
         <section class="image-row">
             <div class="image-item">
@@ -136,14 +149,14 @@
         </section>
         <section class="section">
             <h2>Our Values</h2>
-            <p>We are driven by a set of core values that define our work and our relationships with our customers:</p>
+            <p>We are guided by a set of core values that reflect our commitment to excellence:</p>
             <ul>
-                <li><strong>Quality:</strong> We never compromise on quality, ensuring that every product we create meets the highest standards.</li>
+                <li><strong>Quality:</strong> We never compromise on quality, ensuring that every product meets the highest standards.</li>
                 <li><strong>Integrity:</strong> We believe in honest and transparent business practices.</li>
-                <li><strong>Innovation:</strong> We constantly seek new ways to improve and innovate.</li>
+                <li><strong>Innovation:</strong> We continually seek new ways to improve and innovate.</li>
                 <li><strong>Customer Focus:</strong> Our customers are at the heart of everything we do.</li>
             </ul>
-            <p>Thank you for being part of our story. We look forward to continuing this journey with you.</p>
+            <p>Thank you for being part of our journey. We look forward to continuing this adventure with you.</p>
         </section>
     </div>
 </body>
